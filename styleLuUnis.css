@@ -7,10 +7,15 @@
 #header {
     height: 36px;
     background-color: black;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
 }
 
 #nav {
     display: inline-block;
+    font-family: 'Inconsolata', monospace;
 }
 
 #nav>li {
@@ -77,4 +82,18 @@
     color: #fff;
 }
 
-#slider {}
+#slider {
+    margin-top: 36px;
+    position: relative;
+}
+
+#slider .text-content {
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    bottom: 50px;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+#slider #text-slogan {}
