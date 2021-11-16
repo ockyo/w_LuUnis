@@ -89,7 +89,7 @@
 
 #slider .text-content {
     color: #fff;
-    position: absolute;
+    position: fixed;
     left: 50%;
     bottom: 50px;
     transform: translateX(-50%);
