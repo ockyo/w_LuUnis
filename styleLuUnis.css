@@ -84,7 +84,7 @@
 
 #slider {
     margin-top: 36px;
-    position: relative;
+    position: block;
 }
 
 #slider .text-content {
